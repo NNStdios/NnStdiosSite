@@ -235,11 +235,11 @@
 
   @keyframes pulse-ring {
     0%, 100% {
-      transform: scale(1);
-      opacity: 0.5;
+      transform: scale(1.03);
+      opacity: 0.4;
     }
     50% {
-      transform: scale(1.1);
+      transform: scale(var(--profile-pulse-intensity, 1.1));
       opacity: 0.3;
     }
   }
@@ -305,6 +305,7 @@
     display: flex;
     gap: 0.75rem;
     justify-content: center;
+    margin-bottom: 1rem;
   }
 
   .social-icon {

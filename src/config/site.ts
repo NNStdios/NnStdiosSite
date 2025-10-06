@@ -57,12 +57,7 @@ export interface SiteConfig {
   font: {
     family: string;
     url?: string;
-    file?: string; // Path to local font file (e.g., '/fonts/MapleMonoNF-Regular.ttf')
-  };
-  theme: {
-    primaryColor: string;
-    secondaryColor: string;
-    accentColor: string;
+    file?: string;
   };
   about: {
     title: string;
@@ -81,11 +76,6 @@ export const siteConfig: SiteConfig = {
   font: {
     family: "Maple Mono NF CN",
     file: "/fonts/MapleMono-NF-CN-Regular.ttf"
-  },
-  theme: {
-    primaryColor: "#102840",
-    secondaryColor: "#163859", 
-    accentColor: "#60A5FA"
   },
   about: {
     title: "About NnStdios",

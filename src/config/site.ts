@@ -79,12 +79,12 @@ export const siteConfig: SiteConfig = {
   name: "NnStdios",
   description: "Innovative Game Development Studio",
   font: {
-    family: "'Maple Mono NF CN', 'JetBrains Mono', 'Fira Code', monospace",
-    file: "/fonts/MapleMono-NF-CN-Regular.ttf" // Put your TTF file in public/fonts/ folder
+    family: "Maple Mono NF CN",
+    file: "/fonts/MapleMono-NF-CN-Regular.ttf"
   },
   theme: {
-    primaryColor: "#3B82F6",
-    secondaryColor: "#1E40AF", 
+    primaryColor: "#102840",
+    secondaryColor: "#163859", 
     accentColor: "#60A5FA"
   },
   about: {
